@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Saira+Extra+Condensed|Squada+One&display=swap');
+
+/* font-family: 'Squada One', cursive;
+font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Anton', sans-serif; */
+
+body{
+  text-align: justify;
+  margin: auto;
+}
+
+h1, h2, h3  {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: #ffffcc;
+  font-size: 50px;
+  line-height: 1px;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  h2{
+    font-size: 20px;
+  }
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: #ffffcc;
+  font-size: 30px;
+  line-height: 1px;
+  letter-spacing: 3px;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  background-color:#ffffcc;
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid black;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    background-color:#ffffcc;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+  }
+}
+
+
+.logo{
+  width: 100px;
+  height: auto;
+  top: 1;
+  left: 1;
+  padding: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+    width: 50px;
+    height: auto;
+    top: 1;
+    left: 1;
+    padding: 10%;
+  }
+}
+
+.links{
+  padding: 2%;
+  padding-right: 8%;
+  font-size: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    font-size: 20px;
+    width: 48%;
+    top: 0;
+    right: 0;
+    margin-top: 2px;
+
+    }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover{
+      color: white;
+      background-color: #ffb833;
+      border-radius: 50px;
+    }
+
+  }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background-color: #ffb833;
+  border-radius: 50px;
+}
+
+.movie{
+  background-color: #ffffcc;
+  opacity: 0.5%;
+  width: 100%;
+  margin: auto;
+}
+
+.video{
+  margin:auto;
+  margin-top: 120px;
+  margin-left: 300px;
+  border-style:inset;
+}
+
+@media screen and (max-width: 600px) {
+  .movie{
+    background-color: #ffffcc;
+    opacity: 0.5%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .video{
+    margin:auto;
+    margin-left: 110px;
+    margin-top: 80px;
+    border-style:inset;
+    width: 280px;
+    height: 200px;
+  }
+
+}
+
+.container2{
+  width: 100%;
+  height: 320px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color:#ffffcc;
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .container2{
+    width: 100%;
+    height: 400px;
+    padding: 1%;
+    background-color:#ffffcc;
+    position: relative;
+    display: flex;
+  }
+
+}
+
+
+.text1{
+  position: absolute;
+  width: 30%;
+  padding: 2%;
+  background-color: #ffb833;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .text1{
+    position: absolute;
+    width: 40%;
+    padding: 2%;
+    background-color: #ffb833;
+    margin-left: 10px;
+  }
+}
+
+.text2{
+  position: absolute;
+  width: 30%;
+  right: 0;
+  padding: 2%;
+  background-color: #ffb833;
+  margin-right: 65px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .text2{
+    position: absolute;
+    width: 40%;
+    padding: 2%;
+    background-color: #ffb833;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+
+.container3{
+  margin: auto;
+  width: 100%;
+  height: 450px;
+  background-color: #ffb833;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.boxes{
+height: 400px;
+width: 300px;
+padding: 25px;
+margin: auto;
+}
+
+
+
+
+.container4{
+  margin: auto;
+  width: 100%;
+  height: 450px;
+  background-color: #ffb833;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .container3{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+}
+
+.container4{
+  display: flex;
+  flex-direction: column;
+  height:auto;
+}
+}
+
+
+.button{
+  width: 100%;
+  height: 200px;
+  background-color: #ffffcc;
+}
+
+.myButton {
+	background-color:red;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:3px solid #ffb833;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffcc;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:9px 71px;
+	text-decoration:none;
+  margin-left: 38.5%;
+  margin-top: 80px;
+  position: absolute;
+}
+.myButton:hover {
+	background-color:#ffffcc;
+  color:red;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media screen and (max-width: 600px) {
+  .myButton {
+  	background-color:red;
+  	-moz-border-radius:21px;
+  	-webkit-border-radius:21px;
+  	border-radius:21px;
+  	border:3px solid #ffb833;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffcc;
+  	font-family:Arial;
+  	font-size:28px;
+  	font-weight:bold;
+  	padding:9px 71px;
+  	text-decoration:none;
+    margin-left: 19%;
+    margin-top: 68px;
+    position: absolute;
+  }
+  .myButton:hover {
+  	background-color:#ffffcc;
+    color:red;
+  }
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
+}
+
+
+
+.footer{
+  background-color: #778899;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
